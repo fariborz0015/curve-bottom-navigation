@@ -54,7 +54,7 @@ const BottomNavigation = () => {
   };
 
   return (
-    <div className="w-full   h-16 absolute bottom-0 bg">
+    <div className="w-full  max-w-[inherit] h-16 absolute bottom-0 bg">
       <div
         ref={curveRef}
         className={` absolute transition-all bottom-0 bg-[url('/asset/BottomNavigationBg.svg')] bg-cover bg-center w-full h-full  `}
